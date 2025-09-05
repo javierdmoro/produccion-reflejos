@@ -1,0 +1,15 @@
+body{font-family: Arial, sans-serif; margin:0; padding:0; background:#f5f7fb}
+.nav{display:flex; gap:10px; padding:10px; background:#222; color:#fff}
+.nav a{color:#fff; text-decoration:none}
+.container{max-width:900px; margin:20px auto; padding:10px}
+.card{background:#fff; padding:15px; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.06)}
+label{display:block; margin-top:8px; font-weight:600}
+input, select{width:100%; padding:8px; margin-top:4px; border:1px solid #ddd; border-radius:6px}
+.proc{display:flex; gap:8px; margin-top:8px}
+.actions{display:flex; gap:8px; margin-top:12px; align-items:center}
+button{padding:8px 12px; border-radius:6px; border:none; cursor:pointer}
+.summary-table{width:100%; margin-top:12px; border-collapse:collapse}
+.summary-table th, .summary-table td{border:1px solid #eee; padding:8px; text-align:left}
+.salary{margin-top:12px; font-size:18px}
+.link{padding:8px 12px; background:#eee; border-radius:6px; text-decoration:none; color:#333}
+@media(max-width:600px){ .proc{flex-direction:column} .container{padding:8px} }
